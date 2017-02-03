@@ -1,0 +1,22 @@
+
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "version_name": "alpha",
+  "permissions": [
+    "tabs",
+	"http://en.savefrom.net/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+	"persistent": false
+  },
+  "short_name": "starter",
+  "commands": {
+    "save" : {
+        "suggested_key": {
+             "default": "Ctrl+Q" 
+        },
+    }
+	}
+}
