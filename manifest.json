@@ -7,7 +7,7 @@
   "description": "simple extension to download mp3 from youtube using savefrom.net website",
   "permissions": [
     "tabs",
-	"http://en.savefrom.net/*"
+	"<all_urls>"
   ],
   "background": {
     "scripts": ["background.js"],
