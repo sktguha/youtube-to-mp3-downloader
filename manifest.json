@@ -15,7 +15,13 @@
   },
   "short_name": "starter",
   "commands": {
-    "save" : {
+    "m4a" : {
+        "suggested_key": {
+             "default": "Ctrl+D" 
+        },
+        "description": "Save youtube to mp3"
+    },
+	"mp4" : {
         "suggested_key": {
              "default": "Ctrl+Q" 
         },
