@@ -1,8 +1,10 @@
 
 {
   "manifest_version": 2,
+  "name": "youtube downloader",
   "version": "0.0.1",
   "version_name": "alpha",
+  "description": "simple extension to download mp3 from youtube using savefrom.net website",
   "permissions": [
     "tabs",
 	"http://en.savefrom.net/*"
@@ -17,6 +19,7 @@
         "suggested_key": {
              "default": "Ctrl+Q" 
         },
+        "description": "Save youtube to mp3"
     }
 	}
 }
